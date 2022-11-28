@@ -12,7 +12,7 @@ const LOCAL_URL = `postgres://${POSTGRES_USER}:${POSTGRES_PASSWORD}@${POSTGRES_H
 export default {
   type: 'postgres',
   cache: false,
-  url: 'postgres://rss:yWBztxcvHm0eVP54JQWcEiJ22J74pF9s@dpg-ce1rs76n6mpu84ol16u0-a.frankfurt-postgres.render.com/rssdb',
+  url: 'postgres://rss:bRCeDkgdpI4RRnWBJMB0zzp0CySYpemf@dpg-ce2fo81a6gdsa650fnvg-a.frankfurt-postgres.render.com/rssdb_lvhd',
   synchronize: false,
   logging: false,
   ssl: {
