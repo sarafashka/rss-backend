@@ -12,7 +12,7 @@ const LOCAL_URL = `postgres://${POSTGRES_USER}:${POSTGRES_PASSWORD}@${POSTGRES_H
 export default {
   type: 'postgres',
   cache: false,
-  url: 'postgres://rss:bRCeDkgdpI4RRnWBJMB0zzp0CySYpemf@dpg-ce2fo81a6gdsa650fnvg-a/rssdb_lvhd',
+  url: 'postgresql://kanban_postgre_8vw2_user:QnE5iDY2vetFgpfjPhJXwxNpzuXQwZEm@dpg-csp2ime8ii6s73a54i1g-a/kanban_postgre_8vw2',
   synchronize: false,
   logging: false,
   ssl: {
